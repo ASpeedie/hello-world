@@ -1,0 +1,113 @@
+/* 
+Project Name: 30 Days of Focus
+Client: One Month
+Author: Andrea Speedie | @msspeedie
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+
+
+}  
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container {
+	width: 800px;
+	margin: 50px 20px 0 200px;
+	background: White;
+	padding: 20px;
+	float: left;
+}	
+
+
+#header {
+	padding: 0 20px 0 200px;
+
+}
+
+#main {
+	background: SkyBlue;
+	padding: 10px;
+	width: 700px;
+	float: left;
+}
+
+#hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+p {
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+    font-style:italic;
+}
+
+mark.black {
+    color:#000000;
+    background: none;
+}
+
+mark.grey {
+    color:#8D8988;
+    background: none;
+}
+
+.verticalLine {
+  border-left: thick solid #847B79;
+}
+
+#sidebar {
+	background: White;
+	padding: 50px;
+	width: 250px;
+	float: left;
+	margin: 10px auto 0 auto;
+
+}
+
+img {
+  height: 300px;
+}
+
+.contain {
+  width: 600px;
+  object-fit: contain;
+}
+
+#footer {
+	padding: 50px;
+
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
